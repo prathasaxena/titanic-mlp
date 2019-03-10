@@ -13,10 +13,10 @@ from sklearn.preprocessing import OneHotEncoder,LabelEncoder,Imputer
 import random
 %matplotlib inline
 
-train = pd.read_csv(r"F:\data\Titanic\train.csv", usecols = ["Pclass","Sex","Age","Parch","Fare"])
-train_y = pd.read_csv(r"F:\data\Titanic\train.csv",usecols = ["Survived"])
-test = pd.read_csv(r"F:\data\Titanic\test.csv",usecols = ["Pclass","Sex","Age","Parch","Fare"])
-test_y = pd.read_csv(r"F:\data\Titanic\gender_submission.csv", usecols = ["Survived"])
+train = pd.read_csv(r"Titanic\train.csv", usecols = ["Pclass","Sex","Age","Parch","Fare"])
+train_y = pd.read_csv(r"Titanic\train.csv",usecols = ["Survived"])
+test = pd.read_csv(r"Titanic\test.csv",usecols = ["Pclass","Sex","Age","Parch","Fare"])
+test_y = pd.read_csv(r"Titanic\gender_submission.csv", usecols = ["Survived"])
 
 
 #data processing
